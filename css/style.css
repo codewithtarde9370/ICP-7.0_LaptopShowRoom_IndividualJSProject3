@@ -1,6 +1,9 @@
 /*
 common styling theme:
 color for cards background:#8A68FF,#B8B8FF,#8B5AFF,#785DDD,#5B45BE
+optional trail colors:#caf0f8,#ade8f4,#90e0ef,#48cae4,#00b4d8,#0096c7,#0077b6,#023e8a,#03045e.
+nav,footer:#f7f7f2
+
 colors:https://coolors.co/b8b8ff-9381ff-8b5aff-785ddd-5b45be
 
 font import:
@@ -40,6 +43,30 @@ font2
   font-weight: 400;
   font-style: normal;
 }
+common btns styles:
+.button {
+  background-color: #8A68FF; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
+.button1 {
+  background-color: white; 
+  color: #8A68FF; 
+  border: 2px solid #8A68FF;
+}
+
+.button1:hover {
+  background-color: #8A68FF;
+  color: white;
+}
 
 */
