@@ -70,3 +70,50 @@ common btns styles:
 }
 
 */
+
+
+
+/* footer styling */
+.foot{
+    background-color: rgb(5, 20, 49);
+    color: White;
+    margin-top:200px;
+}
+@media screen and (max-width: 600px){
+    .foot .container{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+.foot .box{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    width: 300px;
+    
+}
+.foot .container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    
+}
+.foot .grid{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    width: 300px;
+
+}
+.foot h3{
+    color:#FFD43B ;
+}
+.foot .contact-img{
+    height: 20px;
+}
