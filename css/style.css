@@ -150,3 +150,14 @@ common btns styles:
     font-size: 18px;
     color: #8A68FF;
 }
+.foot-qlink li{
+  list-style: none;
+    margin-bottom: 5px;
+    
+}
+.foot-qlink a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+
+}
