@@ -113,9 +113,10 @@ common btns styles:
 .foot .box{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content:left;
     align-items: center;
-    width: 300px;
+    width: 400px;
     
     
 }
