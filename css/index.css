@@ -7,8 +7,29 @@
     margin: 150px 100px;
 }
 .home-description{
-    width: 900px;
-    font-size: 20px;
+    width: 80%;
+    font-size: 25px;
     padding: 20px;
-    background-color:#B8B8FF ;
+    
 }
+
+/* carousel */
+.applycss{
+    width: 58%;
+    margin:0 auto;
+  
+  
+  }
+  .carousel-caption{
+    font-size: 25px;
+    font-weight: 800;
+  
+  }
+  .carousel-bg{
+    background-color: #B8B8FF;
+  }
+  .carousel-text{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+  }
