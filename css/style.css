@@ -143,3 +143,7 @@ common btns styles:
 .foot .contact-img{
     height: 25px;
 }
+.footer-copyright{
+    font-size: 18px;
+    color: #8A68FF;
+}
