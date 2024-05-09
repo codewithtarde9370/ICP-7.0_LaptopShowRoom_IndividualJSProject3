@@ -4,5 +4,11 @@
     color: black;
 }
 .home-content{
-    margin: 150px 10px;
+    margin: 150px 100px;
+}
+.home-description{
+    width: 900px;
+    font-size: 20px;
+    padding: 20px;
+    background-color:#B8B8FF ;
 }
