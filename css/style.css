@@ -17,10 +17,10 @@ class css:
 <uniquifier>: Use a unique and descriptive class name
  <weight>: Use a value from 100 to 900
 
-.montserrat-<uniquifier> {
+.montserrat-lapshop {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: ;
   font-style: normal;
 }
 
@@ -71,13 +71,37 @@ common btns styles:
 
 */
 
+/* body */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Konkhmer+Sleokchher&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.montserrat-lapshop {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600 ;
+    font-style: normal;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navigation Bar */
+
+.nav-color{
+    background-color: #f7f7f2;
+    
+}
+.nav-font{
+    font-size: 25px;
+}
 
 
 /* footer styling */
 .foot{
-    background-color: rgb(5, 20, 49);
-    color: White;
-    margin-top:200px;
+    font-size: 20px;
+    background-color: #f7f7f2;
+    margin-top:100px;
+    padding: 20px;
+
 }
 @media screen and (max-width: 600px){
     .foot .container{
@@ -93,14 +117,13 @@ common btns styles:
     align-items: center;
     width: 300px;
     
+    
 }
 .foot .container{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
     
 }
 .foot .grid{
@@ -110,10 +133,12 @@ common btns styles:
     align-items: center;
     width: 300px;
 
+
 }
 .foot h3{
-    color:#FFD43B ;
+    margin-bottom: 30px;
+    color: #8A68FF;
 }
 .foot .contact-img{
-    height: 20px;
+    height: 25px;
 }
