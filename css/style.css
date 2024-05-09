@@ -93,6 +93,9 @@ common btns styles:
 .nav-font{
     font-size: 25px;
 }
+.nav-profile{
+    padding-right: 20px;
+}
 
 
 /* footer styling */
