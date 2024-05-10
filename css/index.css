@@ -16,21 +16,18 @@
 
 /* carousel */
 .applycss{
-    width: 58%;
     margin:0 auto;
-  
-  
+    position: absolute;
+width: 70%;
   }
-  .carousel-caption{
-    font-size: 25px;
-    font-weight: 800;
+
   
-  }
   .carousel-bg{
     background-color: #B8B8FF;
   }
   .carousel-text{
-    font-size: 35px;
+    position: relative;
+    font-size: 45px;
     font-weight: 700;
     color: white;
   }
@@ -40,4 +37,9 @@
       width: 100%;
       margin:0 auto;
     }
+    .carousel-text{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+      }
 }

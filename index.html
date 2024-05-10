@@ -15,17 +15,17 @@
     <script src="https://kit.fontawesome.com/9111c6cbdb.js" crossorigin="anonymous"></script>
 
 </head>
-<body class="montserrat-lapshop">
+<body class="montserrat-lapshop" id="body">
     <!-- header -->
     <header >
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-color">
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav-bar-theme">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <a class="navbar-brand fs-1 mx-5" href="#" style="color: #8A68FF;">LapTopShop</a>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav  mb-2 mb-lg-0 nav-font">
+                <ul class="navbar-nav  mb-2 mb-lg-0 nav-font" id="nav-item-theme">
                   <li class="nav-item">
                     <a class="nav-link active px-5" aria-current="page" href="#" style="color: #B8B8FF;">Home</a>
                   </li>
@@ -44,8 +44,12 @@
                 </ul>
                
             </div>
+            
             <div class="nav-profile">
                 <i class="fa-solid fa-user fa-2xl" style="color: #B197FC;"></i>
+            </div>
+            <div class="mode-changer">
+              <img src="./icons/brightness.png" alt="light-mode"  id="light-mode" onclick="dark()">
             </div>
             </div>
           </nav>
@@ -81,14 +85,14 @@
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="./images/home/5.jpg" class="d-block w-100" alt="...">
+              <img src="./images/home/6.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="carousel-text" >But unsure which model to choose?</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./images/home/6.jpg" class="d-block w-100" alt="...">
+              <img src="./images/home/5.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="carousel-text">Laptop buying has become easier with the LapTopShop. You can find multiple options with enhanced features</h5>
     
@@ -112,7 +116,7 @@
     
 
     <!-- footer -->
-    <footer class="foot">
+    <footer class="foot" id="footer-theme">
         <div class="container py-4">
           <div class="box">
             <h3>LapTopShop, Your Ultimate Tech Destination</h3>
