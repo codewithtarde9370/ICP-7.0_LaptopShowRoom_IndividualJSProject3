@@ -33,7 +33,8 @@ change_nav_theme.classList.remove('bg-body-tertiary');
 const change_footer_theme=document.getElementById("footer-theme");
 change_footer_theme.classList.add('bg-dark');
 
-const change_navitem_theme=document.getElementById("nav-item-theme");
+const change_navitem_theme=document.getElementsByClassName("nav-item-theme");
 change_navitem_theme.classList.add('navbar-theme');
+change_navitem_theme.classList.remove('navclr');
 
 }

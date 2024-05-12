@@ -87,7 +87,10 @@ common btns styles:
 /* navigation Bar */
 
 .nav-font{
-    font-size: 23px;
+    font-size: 23px; 
+}
+.navclr {
+  --bs-nav-link-color: #000000; /* Change this to whatever color you want */
 }
 .nav-profile{
   padding-right: 2%;
@@ -111,14 +114,13 @@ background-color:  #4c4c4d;
 color: white;
 }
 .navbar-theme{
-  color:inherit;
-
+  --bs-nav-link-color: white; /* Change this to whatever color you want */
 }
 
 
 /* footer styling */
 .foot{
-    font-size: 20px;
+    font-size: 17px;
     background-color: #f7f7f2;
     margin-top:100px;
     padding: 20px 3px;
@@ -139,7 +141,7 @@ color: white;
   }
   .foot .box1{
     display: flex;
-    padding: 10px;
+    padding: 5px;
     flex-direction: column;
     justify-content:left;
     width: 400px;
@@ -172,7 +174,7 @@ color: white;
     padding-right:5px;
 }
 .footer-copyright{
-    font-size: 20px;
+    font-size: 18px;
     color: #8A68FF;
 }
 .box li{
