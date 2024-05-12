@@ -1,0 +1,30 @@
+.terms-container{
+margin: 100px auto;
+width: 80%;
+    
+}
+.terms-container h3{
+    color: #8B5AFF;
+
+}
+.terms-container li{
+    background-color: #d2d2ec;
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 2px grey;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.terms-container li:hover{
+    background-color: aliceblue;
+
+
+}
+    
+    
