@@ -1,0 +1,13 @@
+.service-body{
+    margin-top: 100px;
+}
+
+.service-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.service-container img{
+    height: px;
+    width: 500px;
+}
