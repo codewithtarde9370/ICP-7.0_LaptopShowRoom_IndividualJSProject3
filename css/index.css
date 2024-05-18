@@ -175,3 +175,8 @@ padding: 7px;
 .shop-gallery img:hover{
   flex: 4;
 }
+.text-gallery{
+  color:#8B5AFF;
+  font-size: 43px;
+  text-align: center;
+}
