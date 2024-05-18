@@ -1,18 +1,34 @@
 # Disha Computers
-This is my. This is the basic website First project of g-16 from RTC.
-The main goal for this project was to create a simple and clean webpage with information about us, contact form and some photos. We have used HTML5, CSS3.
-We have created the **laptop Shop Website**. All the information about flats provided by sunrise avenue is presented through this websites.
+Welcome to the **Disha Computers** website project! This repository contains the source code for a website dedicated to selling and repairing laptops and computers. The project is built using HTML, CSS, and JavaScript.
 
-The project is made using HTML and CSS.
-![Screenshot of homepage](homePage.png)
+# Project Overview
+Disha Computers is a website designed to provide customers with information about the products and services offered by our computer shop. The website features an intuitive user interface, comprehensive product listings, and detailed service descriptions to ensure an excellent user experience.
+
+# Technologies Used
+**HTML:** For creating the structure and content of the web pages.
+**CSS:**For styling the website and ensuring a visually appealing design.
+**JavaScript:** For adding interactivity and enhancing the user experience.
+**Responsive Design:** The website is fully responsive and optimized for viewing on different devices, ensuring a seamless experience on desktops, tablets, and smartphones.
+
+![Screenshot of homepage](./images/readme/dark.png)
 
 ### How it works:
 navigate to the diferent pages through both header and footer
-![Screenshot of homepage](footer.png)
+![Screenshot of homepage](./images/readme/head.png)
 
 # Pages Include:
 ### 1.Home
+![Screenshot of homepage](./images/readme/home.png)
+An engaging landing page that introduces visitors to Disha Computers and highlights our key services.
+![Screenshot of homepage](./images/readme/gallery.png)
+
 ### 2.Services
+![Screenshot of homepage](./images/readme/services.png)
+Information about various repair and maintenance services offered, including pricing and service details.
 ### 3.Shop
 ### 4.About
+A simple and effective contact form allowing customers to get in touch with us for inquiries or support.
+
+![Screenshot of homepage](./images/readme/about.png)
+
 ### 5.My Cart
