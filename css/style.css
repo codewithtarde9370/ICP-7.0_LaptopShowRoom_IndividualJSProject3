@@ -87,7 +87,7 @@ common btns styles:
 .top-heading-title{
   margin-top: 30px;
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   color: #8A68FF;
 }
@@ -95,7 +95,7 @@ common btns styles:
 /* navigation Bar */
 
 .nav-font{
-    font-size: 23px; 
+    font-size: 20px; 
 }
 .navclr {
   --bs-nav-link-color: #000000; /* Change this to whatever color you want */
@@ -109,7 +109,7 @@ common btns styles:
 }
 
 .mode-changer img{
-  padding-right: 10%;
+  padding-right: 20%;
   height: 40px;
   cursor: pointer;
 }
