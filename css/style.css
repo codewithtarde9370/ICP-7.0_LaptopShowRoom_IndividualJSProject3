@@ -149,6 +149,7 @@ color: white;
   }
   .foot .box1{
     display: flex;
+    
     padding: 5px;
     flex-direction: column;
     justify-content:left;
